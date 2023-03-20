@@ -1,0 +1,19 @@
+[build-system]
+requires = ['setuptools >= 61.0.0', 'wheel']
+build-backend = 'setuptools.build_meta'
+
+[project]
+name = 'compgraph'
+version = '1.0.0'
+authors = [
+  { name='Muzaffar Sadullaev', email='muzaffarsad@yandex.com' },
+]
+description = 'compgraph project'
+readme = 'README.md'
+requires-python = '>= 3.10'
+dependencies = [
+    'click'
+]
+
+[tool.setuptools.packages]
+find = {}
